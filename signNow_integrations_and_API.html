@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrations and API </title>
+    <style>
+        html * {
+            font-family: Open Sans, Arial, sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.png">
+</head>
+
+<body>
+    <section style="background-color: rgb(233,241,255); height:40px;">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+
+                        <a class="nav-link text-dark " href="#">Support</a>
+                        <a class="nav-link text-dark" href="#">Sandbox login</a>
+                        <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section style="background-color: rgb(12, 12, 12)" style="height:1000px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img src="assets/img/sign.png" alt="" class="src"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Features </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="esignature_tools.html">esignature
+                                            tools</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Documents_and_templates.html">Documents
+                                            and templates</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Team_Collaboration.html">Team
+                                            Collaboration</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="FIllable_fields.html">FIllable
+                                            fields</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Security_and_authentication.html">Security and authentication</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Industry_leading_compliance.html">Industry Leading compliance</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Mobile_applications.html">Mobile
+                                            applications </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="signNow_integrations_and_API.html">
+                                            Integration and API </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Account_management.html"> Account
+                                            management </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Business_CLoud_features.html"> Business
+                                            Cloud features </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Products </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="product_eSignature.html">eSignature
+                                        </a></li>
+                                    <li><a class="dropdown-item text-dark" href="documentgeneration.html">Document Generation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="payments.html">Payments</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Workflow automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">PDF editing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">AIr Slate eSignature</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Robotic Process Automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Web Forms</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Management</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Negotitation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Online Survey</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Solutions </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="financialservices.html">Financial services</a></li>
+                                    <li><a class="dropdown-item text-dark" href="government.html"> Government </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" ">Insurance </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Construction</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Health care</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Real estate </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> High tech </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Education </a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> API </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="apioverview.html">API overview</a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> Developer center </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> API Features  </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API ISVs </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API Pricing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Create </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Sandbox </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Get free trial </a></li>
+                                </ul>
+                            </div>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Samples</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Pricing</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <a href="contact_sales.html"> <button type="button"
+                                    class="btn btn-outline-light text-light">Contact sales</button> </a>
+                            <button type="button" class="btn btn-primary mx-2 text-light">API Free Trial</button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi bi-search"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="row">
+        <h1 class="text-center mt-4" style="font-size: 60px">
+            <b> signNow integrations and API </b>
+        </h1>
+        <h6 class="text-center mt-3" style="font-size: 24px">
+            Run your workflows seamlessly by integrating signNow with your productivity apps, cloud storage services,
+            and CRMs.
+        </h6>
+
+    </div>
+    <section>
+        <div class="container">
+            <div class="row mt-5">
+                <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                    <div class="input-group">
+                        <div class="form-outline">
+                            <input type="search" id="form1" placeholder="Search" class="form-control" />
+                            <label class="form-label" for="form1"></label>
+                        </div>
+
+                    </div>
+                    <h5 class="mt-2">
+                        CATEGORIES
+                    </h5>
+
+                    <h5 class="mt-4">
+                        All features
+                    </h5>
+
+                    <hr>
+
+                    <h4 class=" my-2">
+                        <b> Standard eSignature tools </b>
+                    </h4>
+
+                    <div class="my-3" style="font-size:px;">
+
+                        <h5> <b> Documents and templates </b> </h5>
+
+                        <h5> Team Collaboration </h5>
+
+                        <h5> Fillable fields </h5>
+
+                        <h5> Mobile applications </h5>
+
+                        <h5> Security and authentication </h5>
+
+                        <h5> Account management </h5>
+
+                        <h5> Advanced eSignature tools </h5>
+
+                        <h5> Basic Features </h5>
+
+                        <h5> Industry-leading compliance </h5>
+
+                        <h5> signNow integrations and API </h5>
+
+                        <h5> Business Cloud features </h5>
+
+                        <h5> Other Features </h5>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 ">
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body ">
+
+
+                                    <h5 class="card-title"> <b> signNow for Salesforce </b> </h5>
+
+
+                                    <p class="card-text "> Streamline your contract lifecycles without leaving
+                                        Salesforce. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> SignNow for Microsoft Teams </b> </h5>
+
+                                    <p class="card-text"> Increase the productivity of your entire department right from
+                                        Microsoft Teams. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+
+                                    <h5 class="card-title"> <b> signNow for Dynamics 365 </b> </h5>
+
+
+                                    <p class="card-text"> SAve time pre-filling documents with Dynamics 365 data and
+                                        updating rcords. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> signNow for Box </b> </h5>
+
+                                    <p class="card-text">Sign and send documents for signing directly from your Box
+                                        account. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> signNow for Gmail </b> </h5>
+
+                                    <p class="card-text"> Collect approvals faster by sending email attachments for
+                                        signing in clicks. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> signNow from BIM 360 </b> </h5>
+
+                                    <p class="card-text"> Accelerate construction projects with simple and scure
+                                        eSignature workflows. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> signNow API </b> </h5>
+
+                                    <p class="card-text"> Configure and set up eSignature workflows according to your
+                                        company's needs. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row" style="background-color:rgb(0,58,153); height: 250px; border-radius: 15px;">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 mt-4 d-flex">
+                    <div class="mx-1 mt-5">
+                        <h1 class="text-light mx-3 mt-1" style="font-size:56px;">
+                            <b> Choose a span <span style="background-color: rgb(32,105,224);"> better solution </span>
+                            </b>
+                        </h1>
+                        <h5 class="text-light mx-5 mt-1">
+                            Approve, deliver, track, and store documents using any device.
+                        </h5>
+                    </div>
+
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-5">
+                    <div class="mt-5">
+                        <img src="assets/img/curlyaro.PNG" alt="" class="src mt-5">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-1">
+                    <div class="mt-5 ">
+                        <button type="button" class="btn btn-light mt-5" style="font-size:25px;">Start free trial
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1 ">
+                    <h5 style="font-size: 25px;">
+                        <b> How signNow for Salesforce accelerates work with customers </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        With signNow for Salesforce, sending documents for signing is a breeze. Once you combine these
+                        platforms, you get the ability to use them as a single comprehensive solution. For example, you
+                        can edit and enhance existing templates, set up notifications, populate contracts with
+                        Salesforce data, and send templates to multiple signers in just a few clicks.
+                        Access to eSignature right from the CRM system allows you to contact more customers without
+                        extra energy or hassle. Get more profits and grow your business by integrating now!
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> What signNow for Gmail can do </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        signNow for Gmail is an add-on helpful for people actively using email for sending and receiving
+                        documents. Usually, people download attachments and then open them with other services to edit
+                        the content or sign records. However, our integration can simplify this procedure for you.
+                        signNow for Gmail allows you to import files to our editor or invite other people to sign
+                        documents in a few clicks. All you need is to install the add-on from the Google Marketplace and
+                        enable it in your inbox. After that, our service will analyze attachments in your emails and
+                        open an additional sidebar for choosing files and actions.
+
+                        This seemingly small extension can help you do big work. Minutes saved on transferring records
+                        between services can quickly add up to hours. Optimize your time. Use our add-on for Gmail!
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to improve communication with signNow for Microsoft Teams </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        Microsoft Teams is a convenient tool for communicating, and integrating it with an eSignature
+                        service is a great way to increase efficiency. Make cross-channel communication easier. signNow
+                        for Microsoft Teams means that teams can send and receive forms and contracts and always know
+                        who did what and when with the Audit Trail.
+                        Create templates from files within the MS ecosystem, enhance them with fillable fields, track
+                        the statuses of each file, and receive important notifications immediately. Do more with
+                        streamlined team collaboration.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> What is signNow for BIM 360? </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        What can be better than having a solution to accelerate construction projects? Having a solution
+                        that can accelerate construction projects even more! If you already use BIM 360, you can combine
+                        it with our eSignature service and get results faster.
+                        Consider using signNow for BIM 360 to generate quotes or agreements and invite people to sign
+                        them without leaving the service. You’ll be able to track all the changes, assign roles to
+                        different signers, guide recipients with smart fillable fields, create passwords for specific
+                        documents, and access records from any device at any time.
+
+                        Enhance your construction management software. Use eSignature within BIM 360!
+                    </h6>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> What does signNow for Dynamics 365 do? </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        Dynamics 365 is one of the most popular CRM systems for simplifying work for salespeople.
+                        However, your employees still have to handle the paperwork. They review and negotiate
+                        agreements, redline contracts, send them for signing, and make sure that those documents are
+                        signed correctly.
+                        The optimization of customer relationship management with a CRM system is excellent, but there’s
+                        more you can do to improve your workflow. Use signNow for Dynamics 365 and free your salespeople
+                        from the paper routine. Our solution allows users to prepare and send contracts out, create
+                        templates, automatically update records, and track all the changes in files in minutes instead
+                        of hours.
+
+                        Enhance your work with Dynamics 365. Integrate it with our powerful eSignature tool!
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> What is the signNow API, and how can I use it? </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        API (Application Programming Interface) is a specialized software intermediary for
+                        «communication» between two different services. The signNow API enables you to implement
+                        legally-binding eSignatures into other platforms like applications, websites, CRM systems, or
+                        clouds. It uses HTTP requests to connect solutions and is quite similar to using our full-fledge
+                        service as usual with access to all our essential features: creating or collecting signatures
+                        and building eSignature workflows.
+                        You can try the signNow API for free. To do so, open our website, choose API at the top of the
+                        screen, create a Sandbox account, and freely explore all its capabilities. If you like the
+                        service and would like to get or collect signatures without leaving your primary platform,
+                        you’ll need to choose a subscription to access production-level SLA. With our extensive library
+                        of code templates, the implementation of eSignatures is simple.
+                    </h6>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(227,238,253); height: 270px; border-radius:15px;">
+            <div class="row mt-5">
+                <h6 class="text-center mt-5" style="-webkit-text-fill-color: blue; font-size:17px;">
+                    BE READY TO GET MORE
+                </h6>
+                <h1 class="text-center mt-4">
+                    <b> Get legally-binding eSignatures now! </b>
+                </h1>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mx-5 mt-3">
+                    <div class="mx-4">
+                        <button type="button" class="btn btn-primary text-center mx-5" style="font-size:25px;">Start
+                            free trial </button>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(255, 255, 255); height:500px;">
+
+        </div>
+    </section>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

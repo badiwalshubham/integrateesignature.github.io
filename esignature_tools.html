@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eSignature tools</title>
+    <style>
+        html * {
+            font-family: Open Sans, Arial, sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.png">
+</head>
+
+<body>
+    <section style="background-color: rgb(233,241,255);height: 40px;">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+
+                        <a class="nav-link text-dark " href="#">Support</a>
+                        <a class="nav-link text-dark" href="#">Sandbox login</a>
+                        <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section style="background-color: rgb(12, 12, 12)" style="height:1000px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img src="assets/img/sign.png" alt="" class="src"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Features </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="esignature_tools.html">esignature
+                                            tools</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Documents_and_templates.html">Documents
+                                            and templates</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Team_Collaboration.html">Team
+                                            Collaboration</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="FIllable_fields.html">FIllable
+                                            fields</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Security_and_authentication.html">Security and authentication</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Industry_leading_compliance.html">Industry Leading compliance</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Mobile_applications.html">Mobile
+                                            applications </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="signNow_integrations_and_API.html">
+                                            Integration and API </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Account_management.html"> Account
+                                            management </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Business_CLoud_features.html"> Business
+                                            Cloud features </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Products </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="product_eSignature.html">eSignature
+                                        </a></li>
+                                    <li><a class="dropdown-item text-dark" href="documentgeneration.html">Document Generation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="payments.html">Payments</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Workflow automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">PDF editing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">AIr Slate eSignature</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Robotic Process Automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Web Forms</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Management</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Negotitation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Online Survey</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Solutions </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="financialservices.html">Financial services</a></li>
+                                    <li><a class="dropdown-item text-dark" href="government.html"> Government </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" ">Insurance </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Construction</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Health care</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Real estate </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> High tech </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Education </a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> API </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="apioverview.html">API overview</a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> Developer center </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> API Features  </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API ISVs </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API Pricing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Create </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Sandbox </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Get free trial </a></li>
+                                </ul>
+                            </div>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Samples</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Pricing</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <a href="contact_sales.html"> <button type="button"
+                                    class="btn btn-outline-light text-light">Contact sales</button> </a>
+                            <button type="button" class="btn btn-primary mx-2 text-light">API Free Trial</button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi bi-search"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="row">
+        <h1 class="text-center mt-4" style="font-size: 60px">
+            <b> Standard eSignature tools </b>
+        </h1>
+        <h6 class="text-center mt-3" style="font-size: 40px">
+            Sign documents and get legally-binding signatures from your customers, <br>
+            partners, and employees in seconds.
+        </h6>
+
+    </div>
+    <section>
+        <div class="container">
+            <div class="row mt-5">
+                <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                    <div class="input-group">
+                        <div class="form-outline">
+                            <input type="search" id="form1" placeholder="Search" class="form-control" />
+                            <label class="form-label" for="form1"></label>
+                        </div>
+
+                    </div>
+                    <h5 class="mt-2">
+                        CATEGORIES
+                    </h5>
+
+                    <h5 class="mt-4">
+                        All features
+                    </h5>
+
+                    <hr>
+
+                    <h4 class=" my-2">
+                        <b> Standard eSignature tools </b>
+                    </h4>
+
+                    <div class="my-3" style="font-size:px;">
+
+                        <h5> Documents and templates </h5>
+
+                        <h5> Team Collaboration </h5>
+
+                        <h5> Fillable fields </h5>
+
+                        <h5> Mobile applications </h5>
+
+                        <h5> Security and authentication </h5>
+
+                        <h5> Account management </h5>
+
+                        <h5> Advanced eSignature tools </h5>
+
+                        <h5> Basic Features </h5>
+
+                        <h5> Industry-leading compliance </h5>
+
+                        <h5> signNow integrations and API </h5>
+
+                        <h5> Business Cloud features </h5>
+
+                        <h5> Other Features </h5>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 ">
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body ">
+                                    <img src="assets/img/ring.svg" alt="" class="mx-2 my-3">
+
+                                    <h5 class="card-title"> <b> Set Completion Notifications </b> </h5>
+
+
+                                    <p class="card-text ">Stay in the loop about a document's status by setting
+                                        notifications that you receive onc..</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/message.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Send Document for Signing </b> </h5>
+
+                                    <p class="card-text"> Create a customized signing invitataion to send your document
+                                        for signing.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/reload.svg" alt="" class="mx-2 my-3">
+
+                                    <h5 class="card-title"> <b> Allow Signature Forwarding </b> </h5>
+
+
+                                    <p class="card-text">Aloow a recipient to forward your document to othrs for
+                                        signing.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/messagere.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Bulk Invite </b> </h5>
+
+                                    <p class="card-text">Send templates to multiple recipients at once; Everyone gets
+                                        their own copy to sign and...</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/link.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Create Document link </b> </h5>
+
+                                    <p class="card-text"> Templates give each recipient a link to a fresh copy of a
+                                        document to sign and complete.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/coustomsigning.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Resend Signing Invite </b> </h5>
+
+                                    <p class="card-text">Resend signing invites whenever you need to.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/requiresigner.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Require Signers to Draw Signature </b> </h5>
+
+                                    <p class="card-text">Require hand-drawn signatures and initilas instead of typed
+                                        signatures.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/coustomsigning.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Customize Signing Invite </b> </h5>
+
+                                    <p class="card-text"> easily customize the message and subject in your signing and
+                                        template invites</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/addcarbon.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Carbon Copy Recipients </b> </h5>
+
+                                    <p class="card-text">CC somebody so they get notified when a document has been
+                                        completed</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/setdoc.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Set Document Expiration Date </b> </h5>
+
+                                    <p class="card-text"> Manage you documents by setting an automatic expiration date.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/decline.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Decline to Sign </b> </h5>
+
+                                    <p class="card-text">get notified instantly when a recipient declines to sign a
+                                        document. A recipient can always...</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/setrem.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Set Reminders </b></h5>
+
+                                    <p class="card-text"> Ensure that signers don't forget to fill in and sign your
+                                        document by automatically sending customized </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> Send document for signing and Sign </b> </h5>
+
+                                    <p class="card-text"> Send document for signing and sign with signNow enhance
+                                        your...</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"> <b> Send your recipients a link your document...</b> </h5>
+
+                                    <p class="card-text"> Empower your recipients to sign documents on their mobile
+                                        devices in seconds. Send an SMS with an.. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row" style="background-color:rgb(0,58,153); height: 250px; border-radius: 15px;">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 mt-4 d-flex">
+                    <div class="mx-1 mt-5">
+                        <h1 class="text-light mx-3 mt-1" style="font-size:56px;">
+                            <b> Choose a span <span style="background-color: rgb(32,105,224);"> better solution </span>
+                            </b>
+                        </h1>
+                        <h5 class="text-light mx-5 mt-1">
+                            Approve, deliver, track, and store documents using any device.
+                        </h5>
+                    </div>
+
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-5">
+                    <div class="mt-5">
+                        <img src="assets/img/curlyaro.PNG" alt="" class="src mt-5">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-1">
+                    <div class="mt-5 ">
+                        <button type="button" class="btn btn-light mt-5" style="font-size:25px;">Start free trial
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1 ">
+                    <h5 style="font-size: 25px;">
+                        <b> How to send documents for eSignature </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        Organizations and remote workers often go through many manual paper-based
+                        steps to get a signature from clients, partners, and other associates on
+                        agreements and contracts. This way, the signer receives, prints, and signs
+                        the document, scans or photographs it, creates a PDF, and emails it back.
+                        But there’s a better, faster way. Try a signNow’s trusted eSignature solution
+                        for creating, signing, sharing, and collecting eSigned documents remotely.
+                        Embedding the eSignature into your workflow with signNow is easy. We’ve put
+                        together some questions to help you manage your eSignature business processes
+                        more efficiently.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to collect payments online</b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        signNow is integrated with two online payment solutions — Payeezy and Stripe.
+                        To choose Payeezy, all you have to do is copy and paste two lines from one
+                        account to another. If you prefer Stripe, connecting your account to signNow
+                        is just as fast and easy. Find more information on our website or in the Help
+                        Center. Keep your documents and payments secure and in one place with signNow.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to sign a document with signNow </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        If you’ve been asked to sign a document electronically, you can create an eSignature and
+                        customize
+                        it on virtually any device with signNow. Thanks to the intuitive Signature Wizard, it only takes
+                        a few seconds to create a unique signature: type, draw, or upload a photo of your handwritten
+                        signature. Save the one you like most and reuse it later as many times as you need.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to set multiple recipients</b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        If you need to share a document, such as a questionnaire or a survey, with many
+                        recipients, you can use signNow. First, you need to create a document template.
+                        Then, select the template you created, click the Create Signing Link button on
+                        the template itself, or go to the More menu. The pop-up menu window will give you
+                        a link to share with anyone. signNow features allow you to create and submit
+                        signature forms in a smooth, painless eSignature workflow.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to make a document signable online</b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        With signNow, you can quickly create a signable document, saving it
+                        as a standard PDF file to open on any OS, self-sign it, and send it
+                        out for signing. All you need to do is upload the form to your signNow
+                        account and drag-and-drop a Signature field. When the signer clicks
+                        on this field, a pop-up window opens where the user can quickly create
+                        his unique legally-binding eSignature and sign
+                        the document anytime, anywhere, from any device.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> What is a shared Signature Link?</b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        A signNow Signing Link is a generated link that you can copy and share
+                        (email, direct messages, blogs, websites, etc.) with any number of signers.
+                        Recipients click the link to open the document on any device and sign it in a couple of clicks.
+                        Signed copies will appear in your account. You’ll also receive an email notification.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to attach a file to a document </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        If you need additional attachments together with a signed contract or another form, you can use
+                        signNow’s advanced Request Attachments feature. Open the required template in your account or
+                        create a new one; the required tool can be found in the left-side toolbar. Place the smart field
+                        anywhere on the page and specify the type of attachment you need. Add a Signature field, and
+                        it’s ready to go.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to send a Bulk Invite </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        signNow’s Bulk Invite feature automates the sending of contracts and forms to many people at the
+                        same time. First of all, you need an Excel spreadsheet with a list of signers’ emails saved in
+                        SVC format. Find the bulk sending feature in the More menu. All listed contacts will receive a
+                        unique link to sign the document. No need to enter numerous emails manually.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to collect signatures online </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        With signNow, you get the best functionality to quickly and securely collect signed documents on
+                        any device, with just a few simple clicks. Upload a form, edit it online, and send it for
+                        signature. Recipients can then sign them without even having a signNow account. Easily and
+                        securely collect legally-binding electronic signatures from anyone, anywhere.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> Can I send a reminder to sign a document in signNow? </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        Using signNow’s advanced features, you can set a reminder so that your
+                        recipient never forgets to sign the document you sent them. After editing
+                        the form, when it’s time to add signers, click Advanced Options. You need
+                        the Set Reminders section. Specify the number of days you want the recipient
+                        to receive the reminder in their email. And for you, automatic reminders,
+                        real-time updates, and notifications mean that
+                        you can easily control and monitor how your documents are signed.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+
+
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to set an expiration date for a document </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        By setting an expiration date and adding reminders, you can make sure your document is signed on
+                        time. The Advanced Options feature allows you to set a document expiration date and extend it if
+                        necessary (the default expiration date is 30 days). When adding signers, go to Advanced Options
+                        and specify the desired period (up to 180 days). Use eSignature capabilities on your own terms,
+                        wherever and whenever you need.
+                    </h6>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(227,238,253); height: 270px; border-radius:15px;">
+            <div class="row mt-5">
+                <h6 class="text-center mt-5" style="-webkit-text-fill-color: blue; font-size:17px;">
+                    BE READY TO GET MORE
+                </h6>
+                <h1 class="text-center mt-4">
+                    <b> Get legally-binding eSignatures now! </b>
+                </h1>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mx-5 mt-3">
+                    <div class="mx-4">
+                        <button type="button" class="btn btn-primary text-center mx-5" style="font-size:25px;">Start
+                            free trial </button>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(255, 255, 255); height:500px;">
+
+        </div>
+    </section>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

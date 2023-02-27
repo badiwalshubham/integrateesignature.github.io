@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fillable fields</title>
+    <style>
+        html * {
+            font-family: Open Sans, Arial, sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.png">
+</head>
+
+<body>
+    <section style="background-color: rgb(233,241,255);height: 40px;">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+
+                        <a class="nav-link text-dark " href="#">Support</a>
+                        <a class="nav-link text-dark" href="#">Sandbox login</a>
+                        <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section style="background-color: rgb(12, 12, 12)" style="height:1000px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img src="assets/img/sign.png" alt="" class="src"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Features </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="esignature_tools.html">esignature
+                                            tools</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Documents_and_templates.html">Documents
+                                            and templates</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Team_Collaboration.html">Team
+                                            Collaboration</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="FIllable_fields.html">FIllable
+                                            fields</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Security_and_authentication.html">Security and authentication</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Industry_leading_compliance.html">Industry Leading compliance</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Mobile_applications.html">Mobile
+                                            applications </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="signNow_integrations_and_API.html">
+                                            Integration and API </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Account_management.html"> Account
+                                            management </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Business_CLoud_features.html"> Business
+                                            Cloud features </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Products </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="product_eSignature.html">eSignature
+                                        </a></li>
+                                    <li><a class="dropdown-item text-dark" href="documentgeneration.html">Document Generation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="payments.html">Payments</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Workflow automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">PDF editing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">AIr Slate eSignature</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Robotic Process Automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Web Forms</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Management</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Negotitation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Online Survey</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Solutions </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="financialservices.html">Financial services</a></li>
+                                    <li><a class="dropdown-item text-dark" href="government.html"> Government </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" ">Insurance </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Construction</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Health care</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Real estate </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> High tech </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Education </a></li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> API </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="apioverview.html">API overview</a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> Developer center </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> API Features  </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API ISVs </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API Pricing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Create </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Sandbox </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Get free trial </a></li>
+                                </ul>
+                            </div>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Samples</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Pricing</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <a href="contact_sales.html"> <button type="button"
+                                    class="btn btn-outline-light text-light">Contact sales</button> </a>
+                            <button type="button" class="btn btn-primary mx-2 text-light">API Free Trial</button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi bi-search"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="row">
+        <h1 class="text-center mt-4" style="font-size: 60px">
+            <b> Fillable fields </b>
+        </h1>
+        <h6 class="text-center mt-3" style="font-size: 25px">
+            transform any document in your account an interactive fillable form. <br>
+            Recipients can complete your form in minutes on any device.
+        </h6>
+
+    </div>
+    <section>
+        <div class="container">
+            <div class="row mt-5">
+                <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                    <div class="input-group">
+                        <div class="form-outline">
+                            <input type="search" id="form1" placeholder="Search" class="form-control" />
+                            <label class="form-label" for="form1"></label>
+                        </div>
+
+                    </div>
+                    <h5 class="mt-2">
+                        CATEGORIES
+                    </h5>
+
+                    <h5 class="mt-4">
+                        All features
+                    </h5>
+
+                    <hr>
+
+                    <h4 class=" my-2">
+                        <b> Standard eSignature tools </b>
+                    </h4>
+
+                    <div class="my-3" style="font-size:px;">
+
+                        <h5> Documents and templates </h5>
+
+                        <h5> Team Collaboration </h5>
+
+                        <h5> Fillable fields </h5>
+
+                        <h5> Mobile applications </h5>
+
+                        <h5> Security and authentication </h5>
+
+                        <h5> Account management </h5>
+
+                        <h5> Advanced eSignature tools </h5>
+
+                        <h5> Basic Features </h5>
+
+                        <h5> Industry-leading compliance </h5>
+
+                        <h5> signNow integrations and API </h5>
+
+                        <h5> Business Cloud features </h5>
+
+                        <h5> Other Features </h5>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 ">
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body ">
+                                    <img src="assets/img/ring.svg" alt="" class="mx-2 my-3">
+
+                                    <h5 class="card-title"> <b> Add Checkbox Fields </b> </h5>
+
+
+                                    <p class="card-text "> Easiy add checkbox field to your document. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/message.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Text Fields </b> </h5>
+
+                                    <p class="card-text"> Drag and drop text field anywhere on a document and type away.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/reload.svg" alt="" class="mx-2 my-3">
+
+                                    <h5 class="card-title"> <b> Add Field from the Edit & Sign Panel </b> </h5>
+
+
+                                    <p class="card-text"> Add fields from the edit and sign panel to fill in and sign a
+                                        document on your own. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/messagere.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Calculated Fields </b> </h5>
+
+                                    <p class="card-text"> Add calculated fields to add, susbtract, multiply or divide
+                                        values from different fields in a document. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/link.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Magic Fields </b> </h5>
+
+                                    <p class="card-text">Guide your recipients through a document using magic fields.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/coustomsigning.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Smart Fields </b> </h5>
+
+                                    <p class="card-text">Transform your template into a fillable form by adding smart
+                                        fields and share it with a signing link.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/requiresigner.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add radio Buttons </b> </h5>
+
+                                    <p class="card-text"> Add interactive radio buttons to a document. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/coustomsigning.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Text Tags to a Word Doc </b> </h5>
+
+                                    <p class="card-text"> Add simple text tags to word documents to automatically
+                                        traform them into fillable... </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/addcarbon.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Import Fields </b> </h5>
+
+                                    <p class="card-text"> Avoid re-typing the same information by automatically
+                                        importing an entire set of fields... </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/setdoc.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Insert Fields </b> </h5>
+
+                                    <p class="card-text"> Add different type of fields to a document, edit them and
+                                        assign roles for specific fields
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/decline.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Anchor Tags to a word DOc </b> </h5>
+
+                                    <p class="card-text"> Allow your document to be quickly completed by tagging
+                                        signature and date fields that show up once...</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/setrem.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Add Date/Time Fields </b></h5>
+
+                                    <p class="card-text"> Drag and drop date and time fields anywhere on a document.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> Add Initials Fields </b> </h5>
+
+                                    <p class="card-text"> Drag and Drop initials fields anywhere on a document.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"> <b> Add Dropdown Fields </b> </h5>
+
+                                    <p class="card-text"> Drag drop and customize dropdown fields anywhere on a
+                                        document. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row" style="background-color:rgb(0,58,153); height: 250px; border-radius: 15px;">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 mt-4 d-flex">
+                    <div class="mx-1 mt-5">
+                        <h1 class="text-light mx-3 mt-1" style="font-size:56px;">
+                            <b> Choose a span <span style="background-color: rgb(32,105,224);"> better solution </span>
+                            </b>
+                        </h1>
+                        <h5 class="text-light mx-5 mt-1">
+                            Approve, deliver, track, and store documents using any device.
+                        </h5>
+                    </div>
+
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-5">
+                    <div class="mt-5">
+                        <img src="assets/img/curlyaro.PNG" alt="" class="src mt-5">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-1">
+                    <div class="mt-5 ">
+                        <button type="button" class="btn btn-light mt-5" style="font-size:25px;">Start free trial
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1 ">
+                    <h5 style="font-size: 25px;">
+                        <b> How to add editable boxes in a PDF </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        We all love PDFs for their versatility and safety. Files in this format are easily readable on
+                        any device and OS as well as secure from editing. This makes them perfect for business documents
+                        of all kinds. To apply changes to their content, you’ll first need to convert them to other
+                        formats or use specific software. signNow makes things much easier. It’s not only an eSignature
+                        solution. It has a simple-to-use editor that allows you to add fillable fields to forms. Upload
+                        your PDF and adjust it according to your needs by inserting text boxes, dropdowns, radio
+                        buttons, calculated fields, signature blocks, and more.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to name a field in signNow </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        It’s really simple to do. When you add a fillable field to your form, whether it’s a textbox,
+                        Dropdown, or a Checkbox, you can set up and rename them in just a few clicks. Place the field
+                        anywhere in the document and go to the right-hand toolbar. Find the Advanced tab, click on it,
+                        and in the Unique Field Name, type in what you want to call it.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to make optional fields to fill out in signNow </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        It’s not always necessary for users to fill out all the fields in your document. signNow allows
+                        you to add optional or required fields to your forms, depending on your needs. Once you drop the
+                        field into the document, go to the right-side toolbar and uncheck Required to let your signers
+                        skip it. You can also make it conditional and show the field to your recipients only if they
+                        fill out another one. For instance, you can make a Signature Field visible for your client only
+                        after they accept your Terms and Conditions.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to add a signature block in PDF for someone else to sign </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        signNow allows you to do more than just sign documents online. Seamlessly collect eSignatures
+                        from your customers, colleagues, and partners. Upload a file, and open it in the powerful PDF
+                        editor. The editor has a variety of fillable fields and elements that you can add to your form
+                        for others to fill out and eSign. Drag and drop the Signature Field to anywhere you need it. You
+                        can insert as many as you need, setting Roles and conditions for each signer. Drop the Initials
+                        and Date/Time fields near the signature areas and customize them accordingly. After you finish
+                        editing and choose to send the document for signing, set the order in which your recipients will
+                        receive it. Add their email addresses and click Send. When all signatures are applied, you'll
+                        automatically get the executed copy stored in your signNow account.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to add checkbox button in a fillable PDF </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        With signNow, you can do more than just eSign your documents. Complete forms online by adding
+                        customized text and additional options like dropdowns and checkmarks. Just select the My Check
+                        option from the toolbar and drag and drop it where you need it. You can also edit documents and
+                        add fillable fields for other users to fill them out. Use the Checkbox Field to place special
+                        elements that allow your recipients to check off specific pieces of information.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to add a dropdown to a PDF </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        With signNow, you can adjust any form according to your needs in just a few clicks. To add a
+                        dropdown list, upload a document, choose the relative option from the left-hand toolbar, and
+                        drop it where it should be. Resize it by dragging its corners. You can customize the field’s
+                        name, make it required or conditional. The number of list options is unlimited, so you can add
+                        as many as needed, including the Other option for a user to fill it out manually if there’s no
+                        option for them to choose.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to fill out and sign a Word document </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        It’s needless to say that Word is the most common format for typing up texts. However, to sign
+                        the texts created in a way that makes them legally-binding, you’ll need to either print them
+                        first or convert them to PDF and then use an appropriate eSignature solution. With signNow, you
+                        can do it all in one place. The service automatically transforms Word to PDF upon uploading and
+                        features an intuitive editor to add fillable fields to your form. You can insert extra text
+                        boxes or checkmarks, and eSign your form by drawing your signature, adding its image, or simply
+                        typing your name. You can also easily add fields for other people to fill out and sign, and then
+                        share the document with them without leaving the tool.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b>How to sign and save Word documents without printing them </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        Most agreements and reports are first created in MS Word because it’s a perfect file format for
+                        working with texts. But Word doesn’t provide a tool for eSigning documents in a way that makes
+                        them enforceable in court. Even if you try to create your signature with the drawing tool, it
+                        won’t be considered a legally-valid signature. You’ll need to print the document first, sign it,
+                        and then scan it back into your computer. That’s time-consuming. To streamline the process, take
+                        advantage of signNow, a go-to eSignature solution. Upload a Word file, edit it, and add a
+                        legally-binding eSignature. You can either type your name, draw your name, or upload an image of
+                        your handwritten signature. No matter which you choose, it’ll be saved in your signNow account.
+                        Bear in mind, signNow automatically converts all files into PDF format.
+                    </h6>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(227,238,253); height: 270px; border-radius:15px;">
+            <div class="row mt-5">
+                <h6 class="text-center mt-5" style="-webkit-text-fill-color: blue; font-size:17px;">
+                    BE READY TO GET MORE
+                </h6>
+                <h1 class="text-center mt-4">
+                    <b> Get legally-binding eSignatures now! </b>
+                </h1>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mx-5 mt-3">
+                    <div class="mx-4">
+                        <button type="button" class="btn btn-primary text-center mx-5" style="font-size:25px;">Start
+                            free trial </button>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(255, 255, 255); height:500px;">
+
+        </div>
+    </section>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

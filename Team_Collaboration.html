@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Collaboration</title>
+    <style>
+        html * {
+            font-family: Open Sans, Arial, sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.png">
+</head>
+
+<body>
+    <section style="background-color:rgb(233,241,255); height:40px;">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+
+                        <a class="nav-link text-dark " href="#">Support</a>
+                        <a class="nav-link text-dark" href="#">Sandbox login</a>
+                        <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section style="background-color: rgb(12, 12, 12)" style="height:1000px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img src="assets/img/sign.png" alt="" class="src"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Features </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="esignature_tools.html">esignature
+                                            tools</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Documents_and_templates.html">Documents
+                                            and templates</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Team_Collaboration.html">Team
+                                            Collaboration</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="FIllable_fields.html">FIllable
+                                            fields</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Security_and_authentication.html">Security and authentication</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark"
+                                            href="Industry_leading_compliance.html">Industry Leading compliance</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Mobile_applications.html">Mobile
+                                            applications </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="signNow_integrations_and_API.html">
+                                            Integration and API </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Account_management.html"> Account
+                                            management </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-dark" href="Business_CLoud_features.html"> Business
+                                            Cloud features </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Products </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="product_eSignature.html">eSignature
+                                        </a></li>
+                                    <li><a class="dropdown-item text-dark" href="documentgeneration.html">Document Generation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="payments.html">Payments</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Workflow automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">PDF editing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">AIr Slate eSignature</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Robotic Process Automation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Web Forms</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Management</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Contract Negotitation</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Online Survey</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> Solutions </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="financialservices.html">Financial services</a></li>
+                                    <li><a class="dropdown-item text-dark" href="government.html"> Government </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" ">Insurance </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Construction</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Health care</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">Real estate </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> High tech </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Education </a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b> API </b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-dark" href="apioverview.html">API overview</a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> Developer center </a></li>
+                                    <li><a class="dropdown-item text-dark" href=" "> API Features  </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API ISVs </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> API Pricing</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Create </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Sandbox </a></li>
+                                    <li><a class="dropdown-item text-dark" href="#"> Get free trial </a></li>
+                                </ul>
+                            </div>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Samples</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active text-light" aria-current="page" href="#">Pricing</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <a href="contact_sales.html"> <button type="button"
+                                    class="btn btn-outline-light text-light">Contact sales</button> </a>
+                            <button type="button" class="btn btn-primary mx-2 text-light">API Free Trial</button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi bi-search"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="row">
+        <h1 class="text-center mt-4" style="font-size: 60px">
+            <b> Team Collaboration </b>
+        </h1>
+        <h6 class="text-center mt-3" style="font-size: 24px">
+            Invite people to a team, share documents and track team activity.
+        </h6>
+
+    </div>
+    <section>
+        <div class="container">
+            <div class="row mt-5">
+                <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                    <div class="input-group">
+                        <div class="form-outline">
+                            <input type="search" id="form1" placeholder="Search" class="form-control" />
+                            <label class="form-label" for="form1"></label>
+                        </div>
+
+                    </div>
+                    <h5 class="mt-2">
+                        CATEGORIES
+                    </h5>
+
+                    <h5 class="mt-4">
+                        All features
+                    </h5>
+
+                    <hr>
+
+                    <h4 class=" my-2">
+                        <b> Standard eSignature tools </b>
+                    </h4>
+
+                    <div class="my-3" style="font-size:px;">
+
+                        <h5> <b> Documents and templates </b> </h5>
+
+                        <h5> Team Collaboration </h5>
+
+                        <h5> Fillable fields </h5>
+
+                        <h5> Mobile applications </h5>
+
+                        <h5> Security and authentication </h5>
+
+                        <h5> Account management </h5>
+
+                        <h5> Advanced eSignature tools </h5>
+
+                        <h5> Basic Features </h5>
+
+                        <h5> Industry-leading compliance </h5>
+
+                        <h5> signNow integrations and API </h5>
+
+                        <h5> Business Cloud features </h5>
+
+                        <h5> Other Features </h5>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 ">
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body ">
+                                    <img src="assets/img/ring.svg" alt="" class="mx-2 my-3">
+
+                                    <h5 class="card-title"> <b> Create Teams </b> </h5>
+
+
+                                    <p class="card-text "> Make working with others easy by creating teams for sharing,
+                                        signing and completing your templates. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/message.svg" alt="" class="mx-2 my-3">
+                                    <h5 class="card-title"> <b> Set Advanced Options for Teams </b> </h5>
+
+                                    <p class="card-text"> Easily manage your team: keep track of documents, add a team
+                                        admin, remove users and transfe... </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+                                    <img src="assets/img/reload.svg" alt="" class="mx-2 my-3">
+
+                                    <h5 class="card-title"> <b> Create Shared Templates </b> </h5>
+
+
+                                    <p class="card-text"> Streamline your team workflow by sharing templates with team
+                                        members. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> Manage the Members of your Organization </b> </h5>
+
+                                    <p class="card-text"> Easily add or remove users from your Organization in signNow.
+                                        Assign ADmins and Moderators... </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> Add a new Member to your Organization </b> </h5>
+
+                                    <p class="card-text"> Authorize one or multiple signNow users to join your
+                                        organization for shared access to documents... </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-5">
+                            <div class="card mx-5" style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> Customize settings for your Organization </b> </h5>
+
+                                    <p class="card-text">Access an easy-to-use Admin Panel to configure Organization
+                                        settings for all members at once. No need... </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row my-5">
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
+
+                            <div class="card " style="width: 20rem; height: 14rem;">
+                                <div class="card-body">
+
+                                    <h5 class="card-title"> <b> Track user activity in the Organization... </b> </h5>
+
+                                    <p class="card-text"> View essential statistics regarding the activity of your
+                                        Organization and its Members.Trak how man... </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="row my-5">
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row" style="background-color:rgb(0,58,153); height: 250px; border-radius: 15px;">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 mt-4 d-flex">
+                    <div class="mx-1 mt-5">
+                        <h1 class="text-light mx-3 mt-1" style="font-size:56px;">
+                            <b> Choose a span <span style="background-color: rgb(32,105,224);"> better solution </span>
+                            </b>
+                        </h1>
+                        <h5 class="text-light mx-5 mt-1">
+                            Approve, deliver, track, and store documents using any device.
+                        </h5>
+                    </div>
+
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-5">
+                    <div class="mt-5">
+                        <img src="assets/img/curlyaro.PNG" alt="" class="src mt-5">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 mt-1">
+                    <div class="mt-5 ">
+                        <button type="button" class="btn btn-light mt-5" style="font-size:25px;">Start free trial
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1 ">
+                    <h5 style="font-size: 25px;">
+                        <b> How to create fillable checklists that a team can collaborate on </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        In signNow, an admin can create a template, but other members can only fill it out, share, and
+                        sign it. In order to add a fillable checklist, an admin needs to create it using the built-in
+                        editor and move the document to the team’s folder. To do this easily, click More next to the
+                        document, select Move, and specify the name of the folder where you want to transfer it. Once
+                        the checklist has been shared, the team can see it in the folder and fill it out.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to manage the team Dashboard </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        As an admin, you can easily manage all documents, invite and remove people from the team. Also,
+                        on the Dashboard, you can delete a group or transfer ownership to any other member and leave. To
+                        find information about shared forms and contracts, click on your profile icon and select View
+                        Teams. From there, you can get to any Shared Folder (Documents, Templates, Group Documents).
+                        When you create a team, check the box. It helps you view all members’ forms, including deleted
+                        ones, simply by clicking the three dots next to participants’ emails and selecting View
+                        Documents.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to create an eSignature </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        Using signNow, you can create a legally-binding signature online hassle-free. Even if you don’t
+                        have an account, you can eSign any form whenever you receive a signature request from someone
+                        who does have an account. Open the document and click on the Signature field. Then in the pop-up
+                        window, choose how you’d like to create your eSignature. Type, draw, or upload a picture. The
+                        solution is available for both smartphones and computers, meaning you can use signNow no matter
+                        your work setup. ESign using a touchpad, mouse, or a finger. Click Done to finish the signing
+                        session.
+                    </h6>
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to use advanced options </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        Advanced Options help you configure an extra level of authentication. Add a password, set an
+                        expiration date, request payment, and create reminders. To use additional settings when sending
+                        a document, сlick Invite to Sign-> Advanced Options. Choose which authentication method suits
+                        you best: using an SMS, password, or a call. Indicate how much time a recipient has to complete
+                        this document and how often reminders should be sent. Use the Redirect after Signing feature to
+                        take your recipient to the specified webpage. To send a payment request, you just need to tick
+                        the box in the Payment Settings section and indicate the amount and the payer. But make sure you
+                        connect your Stripe account. All settings are saved automatically after you click Send Invite.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How do you create teams in signNow? </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        The team collaboration feature empowers you to manage both your and your colleagues’ documents,
+                        sign, and send them across an entire group of people. To create a team, log in to your signNow
+                        account and select Create Team by clicking on the profile icon in the top right corner. In the
+                        pop-up window, create a name for your team and the emails of those you want to invite. You can
+                        also prohibit or allow an admin to view members’ documents by checking or unchecking the
+                        appropriate box. Create teams for all departments within your organization to build a robust
+                        environment and smooth eSignature workflows.
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to share a template in signNow </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        If you want to share templates that your colleagues can copy, download, and fill out, you should
+                        create a team in signNow. You can invite any number of people just by entering their email
+                        addresses. Once you’re done, Shared Documents and Template Folders automatically appear in your
+                        account. All forms you upload are visible to all members. To share any of your forms, turn it
+                        into a template and select a folder by clicking More->Move to Team’s Templates Folder.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to create a signing request </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        As soon as you’ve finished editing a form, added fillable fields, and saved all the changes, you
+                        can send it out for signing. Click Invite to Sign and add your recipients’ email addresses. To
+                        avoid confusion and mistakes, create a signing order for two and more recipients. Optionally,
+                        you can customize the signature invite by creating a personalized message. Adjust Advanced
+                        Options to set an expiration date and reminders, request payment, add a second layer of
+                        authentication, and so on. Click Send Invite to email a signing request.
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to request a signature on documents in Microsoft Teams </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        You can build an eSignature workflow in Microsoft Teams using signNow. Install the app from the
+                        Teams Marketplace and proceed to create a signature request. Open the signNow chatbot and upload
+                        a template or choose from existing ones. Click Invite to Sign and enter the recipient’s email.
+                        Using this built-in solution, you can track documents’ status and export even more forms and
+                        drafts from the cloud.
+                    </h6>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to save a shared template in Google Drive </b>
+                    </h5>
+
+                    <h6 style="font-size:20px;" class="mt-3">
+                        It doesn’t matter what your role on the team is. Both an admin and a regular team member can
+                        download a template or document located in Shared Folders. To download a template, go to your
+                        team’s Shared Templates Folder and click Download near the document you want to save. Manage the
+                        template as you want, send it out, or upload it to the cloud. To make it even easier, a group
+                        can connect a Google account and set up signed documents to be automatically exported.
+                </div>
+
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 mt-1">
+                    <img src="assets/img/bluetick.PNG" alt="">
+
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mt-1">
+                    <h5 style="font-size: 25px;">
+                        <b> How to store a signature to use in your email? </b>
+                    </h5>
+                    <h6 style="font-size:20px;" class="mt-3">
+                        All signNow features are designed to reduce the time you spend on repetitive work. Integration
+                        with Gmail makes things easier for you. Add the extension to your inbox and, as soon as you
+                        receive a signing request, sign a document in clicks and send it back.
+                    </h6>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(227,238,253); height: 270px; border-radius:15px;">
+            <div class="row mt-5">
+                <h6 class="text-center mt-5" style="-webkit-text-fill-color: blue; font-size:17px;">
+                    BE READY TO GET MORE
+                </h6>
+                <h1 class="text-center mt-4">
+                    <b> Get legally-binding eSignatures now! </b>
+                </h1>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mx-5 mt-3">
+                    <div class="mx-4">
+                        <button type="button" class="btn btn-primary text-center mx-5" style="font-size:25px;">Start
+                            free trial </button>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container" style="background-color: rgb(255, 255, 255); height:500px;">
+
+        </div>
+    </section>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
